@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jmonesruiz.github.io/tip-calculator/static/css/main.e7e1aeb4.chunk.css",
+    "main.js": "/jmonesruiz.github.io/tip-calculator/static/js/main.e50492f9.chunk.js",
+    "main.js.map": "/jmonesruiz.github.io/tip-calculator/static/js/main.e50492f9.chunk.js.map",
+    "runtime-main.js": "/jmonesruiz.github.io/tip-calculator/static/js/runtime-main.c9dbc9ab.js",
+    "runtime-main.js.map": "/jmonesruiz.github.io/tip-calculator/static/js/runtime-main.c9dbc9ab.js.map",
+    "static/js/2.0a690e03.chunk.js": "/jmonesruiz.github.io/tip-calculator/static/js/2.0a690e03.chunk.js",
+    "static/js/2.0a690e03.chunk.js.map": "/jmonesruiz.github.io/tip-calculator/static/js/2.0a690e03.chunk.js.map",
+    "index.html": "/jmonesruiz.github.io/tip-calculator/index.html",
+    "static/css/main.e7e1aeb4.chunk.css.map": "/jmonesruiz.github.io/tip-calculator/static/css/main.e7e1aeb4.chunk.css.map",
+    "static/js/2.0a690e03.chunk.js.LICENSE.txt": "/jmonesruiz.github.io/tip-calculator/static/js/2.0a690e03.chunk.js.LICENSE.txt",
+    "static/media/icon-dollar.9f9be353.svg": "/jmonesruiz.github.io/tip-calculator/static/media/icon-dollar.9f9be353.svg",
+    "static/media/icon-person.65bfd204.svg": "/jmonesruiz.github.io/tip-calculator/static/media/icon-person.65bfd204.svg",
+    "static/media/logo.3cc0528b.svg": "/jmonesruiz.github.io/tip-calculator/static/media/logo.3cc0528b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9dbc9ab.js",
+    "static/js/2.0a690e03.chunk.js",
+    "static/css/main.e7e1aeb4.chunk.css",
+    "static/js/main.e50492f9.chunk.js"
+  ]
+}
