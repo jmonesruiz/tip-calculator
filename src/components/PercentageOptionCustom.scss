@@ -1,0 +1,62 @@
+@import "../color-variables";
+
+.percentage-option-custom {
+	position: relative;
+
+	&__radio {
+		position: absolute;
+		appearance: none;
+
+		&:checked + .percentage-option-custom__input {
+			outline: none;
+			background-color: $primary-color;
+			color: $primary-color-dark;
+			&:focus {
+				outline: 0.2rem solid $primary-color;
+				background-color: $grayish-color-lighter;
+			}
+		}
+	}
+
+	&__input {
+		height: 4.8rem;
+		width: 100%;
+		padding: 0 1.5rem;
+		text-align: right;
+		font-size: 2.4rem;
+		font-weight: 700;
+		color: $primary-color-dark;
+		border: none;
+		border-radius: 0.5rem;
+		background-color: $grayish-color-lighter;
+		transition: background-color 0.1s ease, color 0.1s ease;
+
+		&:hover {
+			outline: 0.2rem solid $primary-color-lighter;
+		}
+
+		&:focus {
+			outline: 0.2rem solid $primary-color;
+			background-color: $grayish-color-lighter;
+		}
+
+		&::placeholder {
+			color: $grayish-color-dark;
+			font-size: 2rem;
+			text-align: center;
+		}
+
+		&::-webkit-outer-spin-button,
+		&::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+		}
+		-moz-appearance: textfield;
+	}
+
+	&.error {
+		.percentage-option-custom__input {
+			outline: 0.2rem solid $error-color;
+		}
+	}
+}

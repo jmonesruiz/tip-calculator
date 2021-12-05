@@ -1,0 +1,27 @@
+@import "../color-variables";
+
+.percentage-input {
+	border: none;
+
+	&__options {
+		padding: 1rem 0rem;
+		display: grid;
+		grid-template-columns: repeat(3, minmax(6rem, 11.5rem));
+		gap: 1.6rem;
+		@media screen and (max-width: 55em) {
+			grid-template-columns: repeat(2, minmax(6rem, 1fr));
+		}
+		@media screen and (max-width: 45em) {
+			grid-template-columns: repeat(3, minmax(6rem, 1fr));
+		}
+		@media screen and (max-width: 28em) {
+			grid-template-columns: repeat(2, minmax(6rem, 1fr));
+		}
+	}
+	&__label {
+		margin-bottom: 0.5rem;
+		font-size: 1.6rem;
+		font-weight: 700;
+		color: $grayish-color-darker;
+	}
+}

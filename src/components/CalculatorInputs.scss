@@ -1,0 +1,14 @@
+@import "../color-variables";
+
+.calculator-inputs {
+	padding: 1.6rem 1.6rem 1.2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 3.6rem;
+	caret-color: $primary-color;
+
+	@media screen and (max-width: 28em) {
+		padding: 0.8rem 0.8rem;
+		gap: 2.4rem;
+	}
+}
